@@ -10,6 +10,7 @@ A: Take the example of "eighthree7":
     which still allows the "eight" to be changed into a digit. The will then 
     become "e8t3e7" which will give "87" correctly.
 '''
+
 import re
 
 def convert_to_numeric(line):
