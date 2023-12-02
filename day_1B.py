@@ -1,7 +1,7 @@
 '''
 Q: "Why are we using "o1e", "t2o", "t3e", etc.?
 
-A: Take the example of "eighthree7":
+A: Take the example of "eighthree7" (note the shared "t"):
     As "three" is replaced first, if we directly replace it with "3" 
     then the string becomes "eigh37" which will give 37, ignoring the original
     "eight" and thus producing the incorrect result.
