@@ -1,3 +1,9 @@
+# Q: "Why is "o1e", "t2o" being used, etc?
+# A: As "three" is replaced first, if the dictionary replaces it with "3" 
+# then the string becomes "eigh37" which will give 37, which is incorrect.
+# However, if we replace "three" with "t3e" the string becomes "eight3e7"
+# which will then become "83e7" which will give "87" correctly.
+
 import re
 
 def convert_to_numeric(line):
